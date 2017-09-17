@@ -3,7 +3,7 @@ Attach("Helpfunctions.m");
 Attach("Divisor_reduction_with_pre_comp.m");
 Fq := GF(13);
 
-A<t> := PolynomialRing(Fq);
+A<t> := PolynomialRing(Fq); // polynomial rinc over Fq in t
 
 Ay<y> := PolynomialRing(A);
 
